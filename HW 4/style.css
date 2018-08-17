@@ -1,0 +1,22 @@
+.box {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+
+.area {
+            width: 400px;
+            height: 400px;
+            border: 2px solid rebeccapurple;
+            position: relative;
+            overflow: hidden;
+        }
+
+.figure {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            /* background-color: red; */
+            position: absolute;
+            transform: translate(-50%, -50%);
+        }
