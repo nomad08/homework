@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="page">
+		<h1 class="title">Гамбургер меню</h1>
+		<div class="mmenu">
+				<div class="menu">
+					<h1>Ингредиенты:</h1>
+					<h2>Булочка</h2>
+					<label><p><input type="radio" name="bun" class="gmenu">Белая</p></label>
+					<label><p><input type="radio" name="bun" class="gmenu">Черная</p></label>
+					<hr>
+					<h2>Начинка</h2>
+					<label><p><input type="checkbox" class="gmenu">Котлета</p></label>
+					<label><p><input type="checkbox" class="gmenu">Сыр</p></label>
+					<label><p><input type="checkbox" class="gmenu">Салат</p></label>
+					<label><p><input type="checkbox" class="gmenu">Овощи</p></label>
+					<label><p><input type="checkbox" class="gmenu">Доп начинка</p></label>
+					<hr>
+					<h2>Соусы</h2>
+					<label><p><input type="checkbox" class="gmenu">Кетчуп</p></label>
+					<label><p><input type="checkbox" class="gmenu">Майонез</p></label>
+					<label><p><input type="checkbox" class="gmenu">Горчица</p></label>
+					<label><p><input type="checkbox" class="gmenu">Тартар</p></label>
+					<label><p><input type="checkbox" class="gmenu">Сырный</p></label>
+					<hr>
+					<h3>Имя для вашего бургера:</h3>
+					<input type="text" id="bName">
+					<hr>
+					<h2>Итого:</h3>
+					<div class="output1">
+						<h3>Калорийность (ккал):</h3> 
+						<div id="kk"></div>
+					</div>
+					<div class="output2">
+						<h3>Цена (грн):</h3> 
+						<div id="price"></div>
+					</div>
+					<button id="bill">СОБРАТЬ</button>
+					<button id="cook">ПРИГОТОВИТЬ</button>	
+				</div>
+				<div id="constructor">
+						<div id="burger">
+							<div class="bI"></div>
+							<div class="bI"></div>
+							<div class="bI"></div>
+							<div class="bI"></div>
+							<div class="bI"></div>
+							<div class="bI"></div>
+							<div class="bI"></div>
+							<div class="bI"></div>
+							<div class="bI"></div>
+							<div class="bI"></div>
+							<div class="bI"></div>
+							<div class="bI"></div>
+							<div id = "lastB"></div>
+						</div>
+					</div>
+			</div>
+
+		</div>
+		<h1 id="lastWords">Имя вашего бургера!!!!!!</h1>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+html, body{
+	margin: 0px;
+	/* overflow: hidden; */
+	overflow: hidden;
+}
+.page{
+	width: 1200px;
+	height: 720px;
+	margin: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-image: url('img/burgerb.jpg');
+
+}
+.mmenu{
+	display: flex;
+	align-items: center;
+	height: 600px;
+	padding: 15px;
+	
+	
+}
+.menu{
+	height: 500px;
+	overflow: auto;
+	padding-right: 10px;
+	/*flex-grow: 1;*/
+	background-color: #fdfeffe0;
+	padding: 15px;
+
+}
+
+.menu>h1 {
+	margin-top: 0px;
+}
+
+.title{
+	text-align: center;
+	margin: 0px;
+	color: #fbfbf9; 
+	background-color: #4d4d4de0;
+}
+
+.title:before {
+	content: ' ';
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    color: #fff;
+    background-color: #f1aa00;
+    background-image: url('http://www.papasdelivery.ru/images/icon.png');
+    border-radius: 50%;
+    box-shadow: 1px 1px 0 rgba(0,0,0,0.7);
+    vertical-align: middle;
+    margin: 0 9px 0 0;
+}
+
+#kk, #price{
+	width: 40px;
+	height: 29px;
+	background-color: red;
+	border-radius: 50%;
+	text-align: center;
+	color: #fff;
+	justify-content: center;
+	padding-top: 11px;
+}
+.output1, .output2{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#cook {
+	margin-left: 15px;
+	display: none;
+}
+
+#constructor{
+	width: 950px;
+	height: 100%;
+	/*background-color: red;*/
+	display: flex;
+	justify-content: flex-end;
+	background-position: center;
+}
+
+#burger {
+	width: 250px;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+
+}
+
+.bI, #lastB {
+	width: 250px;
+	height: 150px;
+	display: none;
+	/* background-image: url('img/0.png'); */
+	background-repeat: no-repeat;
+	/* z-index: -1; */
+	background-size: 75% 100%;
+}
+
+#lastWords{
+	position: relative;
+	height: 50px;
+	width: 700px;
+	bottom: 250px;
+	left: 740px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	color: white;
+	display: none;
+}
