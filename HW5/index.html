@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div data-module="notesModule" class="notes" id="notes">
+        <div class="notes__add"><input type="text" class="notes__add-inp">
+            <button class="notes__add-btn">Add note</button>
+        </div>
+        <div class="notes__list"></div>
+    </div>
+    <hr>
+    <div id="note__length">Количество заметок: 3</div>
+    <hr>
+    <select class="note__selector">
+        <option value="value1" selected>Все заметки</option> 
+        <option value="value2">Избранные</option>
+        <option value="value3">Не избранные</option>
+    </select>
+
+    <script src="js/helpers.js"></script>
+    <script src="js/notes/notes.data.js"></script>
+    <script src="js/notes/notes.template.js"></script>
+    <script src="js/notes/notes.view.js"></script>
+    <script src="js/notes/notes.model.js"></script>
+    <script src="js/notes/notes.controller.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
